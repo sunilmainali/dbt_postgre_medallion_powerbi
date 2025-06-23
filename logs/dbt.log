@@ -1,0 +1,169 @@
+[0m13:48:30.683147 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E1C8ECF1D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E1C8EC3150>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E1C8EC3D90>]}
+
+
+============================== 13:48:30.702446 | 977d4881-658b-4714-8c02-5c215b30e968 ==============================
+[0m13:48:30.702446 [info ] [MainThread]: Running with dbt=1.10.1
+[0m13:48:30.704332 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\sunil\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m13:48:31.006634 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\sunil\.dbt
+[0m13:48:42.694056 [debug] [MainThread]: Starter project path: C:\Users\sunil\Course\Dbt\myenv\Lib\site-packages\dbt\include\starter_project
+[0m13:48:42.784779 [info ] [MainThread]: 
+Your new dbt project "movie_dbt_projects" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m13:48:42.785779 [info ] [MainThread]: Setting up your profile.
+[0m13:51:56.737075 [info ] [MainThread]: Profile movie_dbt_projects written to C:\Users\sunil\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m13:51:56.745998 [debug] [MainThread]: Command `dbt init` succeeded at 13:51:56.744996 after 206.25 seconds
+[0m13:51:56.750590 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E1C8E5E250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E1C8E5F190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E1C4092690>]}
+[0m13:51:56.752615 [debug] [MainThread]: Flushing usage events
+[0m13:52:00.631313 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:53:07.233594 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016C4575B410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016C4A7CFD90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016C4A7CC910>]}
+
+
+============================== 13:53:07.239642 | 43066d24-f3a9-4f82-b286-9d5ac72c59dd ==============================
+[0m13:53:07.239642 [info ] [MainThread]: Running with dbt=1.10.1
+[0m13:53:07.241699 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\sunil\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt debug', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m13:53:07.288979 [info ] [MainThread]: dbt version: 1.10.1
+[0m13:53:07.290097 [info ] [MainThread]: python version: 3.11.9
+[0m13:53:07.290976 [info ] [MainThread]: python path: C:\Users\sunil\Course\Dbt\myenv\Scripts\python.exe
+[0m13:53:07.291977 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m13:53:07.363768 [info ] [MainThread]: Using profiles dir at C:\Users\sunil\.dbt
+[0m13:53:07.364980 [info ] [MainThread]: Using profiles.yml file at C:\Users\sunil\.dbt\profiles.yml
+[0m13:53:07.365995 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\sunil\Course\Dbt\dbt_project.yml
+[0m13:53:07.378722 [info ] [MainThread]: adapter type: postgres
+[0m13:53:07.379734 [info ] [MainThread]: adapter version: 1.9.0
+[0m13:53:07.380741 [info ] [MainThread]: Configuration:
+[0m13:53:07.381742 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m13:53:07.381742 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m13:53:07.382740 [info ] [MainThread]: Required dependencies:
+[0m13:53:07.383847 [debug] [MainThread]: Executing "git --help"
+[0m13:53:07.414190 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m13:53:07.415114 [debug] [MainThread]: STDERR: "b''"
+[0m13:53:07.415114 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m13:53:07.417101 [info ] [MainThread]: Connection:
+[0m13:53:07.418075 [info ] [MainThread]:   host: localhost
+[0m13:53:07.419084 [info ] [MainThread]:   port: 5432
+[0m13:53:07.420083 [info ] [MainThread]:   user: postgres
+[0m13:53:07.421102 [info ] [MainThread]:   database: MovieDBT
+[0m13:53:07.422108 [info ] [MainThread]:   schema: public
+[0m13:53:07.423107 [info ] [MainThread]:   connect_timeout: 10
+[0m13:53:07.424109 [info ] [MainThread]:   role: None
+[0m13:53:07.424109 [info ] [MainThread]:   search_path: None
+[0m13:53:07.425107 [info ] [MainThread]:   keepalives_idle: 0
+[0m13:53:07.426108 [info ] [MainThread]:   sslmode: None
+[0m13:53:07.427109 [info ] [MainThread]:   sslcert: None
+[0m13:53:07.428111 [info ] [MainThread]:   sslkey: None
+[0m13:53:07.429107 [info ] [MainThread]:   sslrootcert: None
+[0m13:53:07.429107 [info ] [MainThread]:   application_name: dbt
+[0m13:53:07.431109 [info ] [MainThread]:   retries: 1
+[0m13:53:07.432127 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m13:53:07.678958 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m13:53:10.590374 [debug] [MainThread]: Using postgres connection "debug"
+[0m13:53:10.591454 [debug] [MainThread]: On debug: select 1 as id
+[0m13:53:10.592374 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m13:53:10.657446 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "MovieDBT" does not exist
+
+[0m13:53:10.691142 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m13:53:10.691142 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m13:53:10.692142 [debug] [MainThread]: On debug: No close available on handle
+[0m13:53:10.693143 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m13:53:10.694145 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m13:53:10.695147 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\sunil\Course\Dbt\dbt_project.yml> not found
+
+[0m13:53:10.695147 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "MovieDBT" does not exist
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m13:53:10.698520 [debug] [MainThread]: Command `dbt debug` failed at 13:53:10.697520 after 3.57 seconds
+[0m13:53:10.698520 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m13:53:10.699599 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016C4A75DF50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016C4AA61BD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016C4A8668D0>]}
+[0m13:53:10.700520 [debug] [MainThread]: Flushing usage events
+[0m13:53:11.937193 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:57:40.397279 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000297D07CD0D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000297D075ED90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000297D07CF790>]}
+
+
+============================== 13:57:40.404025 | 720e03be-726a-47a7-a648-44158aa20797 ==============================
+[0m13:57:40.404025 [info ] [MainThread]: Running with dbt=1.10.1
+[0m13:57:40.405945 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\sunil\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m13:57:56.309243 [debug] [MainThread]: Starter project path: C:\Users\sunil\Course\Dbt\myenv\Lib\site-packages\dbt\include\starter_project
+[0m13:57:56.342855 [info ] [MainThread]: 
+Your new dbt project "Movie_dbt_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m13:57:56.344043 [info ] [MainThread]: Setting up your profile.
+[0m13:58:45.742893 [info ] [MainThread]: Profile Movie_dbt_project written to C:\Users\sunil\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m13:58:45.745810 [debug] [MainThread]: Command `dbt init` succeeded at 13:58:45.744822 after 65.46 seconds
+[0m13:58:45.746809 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000297CA982690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000297CAA034D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000297D07EBE50>]}
+[0m13:58:45.747807 [debug] [MainThread]: Flushing usage events
+[0m13:58:46.972885 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:58:56.715428 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018F171CCC10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018F171CDDD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018F171CC610>]}
+
+
+============================== 13:58:56.718510 | d6431543-7454-4932-9008-8ac6620f8820 ==============================
+[0m13:58:56.718510 [info ] [MainThread]: Running with dbt=1.10.1
+[0m13:58:56.720663 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\sunil\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m13:58:56.737745 [info ] [MainThread]: dbt version: 1.10.1
+[0m13:58:56.738903 [info ] [MainThread]: python version: 3.11.9
+[0m13:58:56.739991 [info ] [MainThread]: python path: C:\Users\sunil\Course\Dbt\myenv\Scripts\python.exe
+[0m13:58:56.740908 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m13:58:56.802367 [info ] [MainThread]: Using profiles dir at C:\Users\sunil\.dbt
+[0m13:58:56.803281 [info ] [MainThread]: Using profiles.yml file at C:\Users\sunil\.dbt\profiles.yml
+[0m13:58:56.804613 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\sunil\Course\Dbt\dbt_project.yml
+[0m13:58:56.805631 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m13:58:56.806656 [debug] [MainThread]: Command `dbt debug` failed at 13:58:56.806656 after 0.19 seconds
+[0m13:58:56.807624 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018F11422650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018F171CE490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018F171CD150>]}
+[0m13:58:56.808620 [debug] [MainThread]: Flushing usage events
+[0m13:58:58.168863 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:36:05.240893 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024E85EAA490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024E85E6AD90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024E85EAAED0>]}
+
+
+============================== 11:36:05.249772 | 62dbb9cb-0781-4d9f-aa8b-f038b8591114 ==============================
+[0m11:36:05.249772 [info ] [MainThread]: Running with dbt=1.10.1
+[0m11:36:05.249772 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\sunil\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt run --select movie_tag_view', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:36:05.249772 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\sunil\Course\Dbt\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m11:36:05.249772 [debug] [MainThread]: Command `dbt run` failed at 11:36:05.249772 after 0.09 seconds
+[0m11:36:05.249772 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024E85E6A010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024E85EA5CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024E85E75450>]}
+[0m11:36:05.249772 [debug] [MainThread]: Flushing usage events
+[0m11:36:06.450323 [debug] [MainThread]: An error was encountered while trying to flush usage events

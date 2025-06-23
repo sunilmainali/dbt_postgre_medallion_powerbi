@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: bronze
+    database: MoviesData
+    schema: bronze
+    tables:
+      - name: movie_ratings
+      - name: movie_tags
+      - name: movie_links
+      - name: movie
+      - name: genome_tags
+      - name: genome_scores

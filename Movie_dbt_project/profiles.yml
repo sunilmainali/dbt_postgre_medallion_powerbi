@@ -1,0 +1,13 @@
+Movie_dbt_project:
+  outputs:
+    dev:
+      dbname: MoviesData
+      host: localhost
+      pass: Qazwsxedc5881@
+      port: 5432
+      schema: bronze
+      threads: 3
+      type: postgres
+      user: postgres
+  target: dev
+
